@@ -1,0 +1,17 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+env/
+*.egg-info/
+
+# Data & models
+data/*.parquet
+data/*.feather
+models/
+!data/sample_customers.csv
+
+# Env & IDE
+.env
+.DS_Store
+.vscode/
