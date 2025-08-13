@@ -1,0 +1,19 @@
+customer-churn-ml/
+├─ README.md
+├─ requirements.txt
+├─ .gitignore
+├─ .env.example
+├─ sql/
+│  └─ schema.sql
+├─ data/
+│  └─ sample_customers.csv
+├─ src/
+│  ├─ config.yaml
+│  ├─ utils.py
+│  ├─ data_prep.py
+│  ├─ features.py
+│  ├─ train.py
+│  └─ predict.py
+└─ .github/
+   └─ workflows/
+      └─ ci.yml
