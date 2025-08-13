@@ -1,0 +1,9 @@
+customer_id,signup_date,segment,events_json,nps,last_contact_ts,churned
+C001,2024-01-10,SMB,"[{""ts"": ""2025-07-01"", ""sessions"": 5, ""minutes"": 80},
+ {""ts"": ""2025-07-15"", ""sessions"": 4, ""minutes"": 60},
+ {""ts"": ""2025-08-01"", ""sessions"": 2, ""minutes"": 30}]",8,2025-08-01,0
+C002,2024-03-03,ENT,"[{""ts"": ""2025-06-28"", ""sessions"": 1, ""minutes"": 10},
+ {""ts"": ""2025-07-07"", ""sessions"": 0, ""minutes"": 0}]",4,2025-07-07,1
+C003,2025-02-14,SMB,"[{""ts"": ""2025-07-10"", ""sessions"": 3, ""minutes"": 50},
+ {""ts"": ""2025-07-28"", ""sessions"": 3, ""minutes"": 40},
+ {""ts"": ""2025-08-05"", ""sessions"": 2, ""minutes"": 20}]",9,2025-08-05,0
