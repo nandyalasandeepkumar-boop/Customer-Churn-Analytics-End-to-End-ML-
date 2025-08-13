@@ -1,0 +1,14 @@
+# Customer Churn Analytics (End-to-End ML)
+
+End-to-end example for churn modeling:
+- Ingests customer usage & feedback
+- Engineers features in Python & SQL
+- Trains a model (scikit-learn)
+- Writes predictions back to a database for BI dashboards
+
+## Quickstart
+1. **Environment**
+```bash
+python -m venv .venv && source .venv/bin/activate   # Windows: .venv\Scripts\activate
+pip install -r requirements.txt
+cp .env.example .env   # fill in DATABASE_URL
